@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Cook<span class="text-blue">Easy</span></h1>
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./catgories.html">Categories</a></li>
+          <li class="nav-btn">
+            <a href="./contact.html" class="btn">Contact Us</a>
+          </li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="flex">
+        <div>
+          <h1 class="text-lg text-title">
+            Learn. Cook. Share.<br />Cooking made easy
+          </h1>
+          <div id="hero-description">
+            <p>
+              Say goodbye to long and frustrating food blogs and recipe videos.
+              Access our recipe cards to prepare any dish in minutes.
+            </p>
+            <div class="flex-center">
+              <a href="./catgories.html" class="btn">Browse Dish</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-center">
+          <div id="hero-img">
+            <img src="images/hero-dish.png" alt="Hero Dish" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Dishes Grid -->
+      <section>
+        <h1 class="text-center text-md">Check out your favorite dish</h1>
+        <div class="grid cols-4">
+          <div class="dish-card">
+            <div class="dish-card-img">
+              <img src="images/pancakes.jpg" alt="Pancakes" />
+            </div>
+            <div class="dish-card-text">
+              <h1>
+                <a href="./dishes/Breakfast/pancakes.html">Classic Pancakes</a>
+              </h1>
+              <p>Flour, Sugar, Milk...</p>
+              <p class="tag pill-sm">Breakfast</p>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card-img">
+              <img
+                src="images/honeyGarlicSalmon.jpg"
+                alt="Honey Garlic Salmon with Rice"
+              />
+            </div>
+            <div class="dish-card-text">
+              <h1>
+                <a href="./dishes/LunchAndDinner/honeyRice.html"
+                  >Honey Garlic Salmon with Rice</a
+                >
+              </h1>
+              <p>Honey, Rice, Salmon</p>
+              <p class="tag pill-sm">Lunch &amp; Dinner</p>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card-img">
+              <img src="images/tiramisu.jpg" alt="Tiramisu" />
+            </div>
+            <div class="dish-card-text">
+              <h1>
+                <a href="./dishes/Desserts/tiramisu.html">Classic Tiramisu</a>
+              </h1>
+              <p>Coffee, Cream, Eggs...</p>
+              <p class="tag pill-sm">Desserts</p>
+            </div>
+          </div>
+          <div class="dish-card">
+            <div class="dish-card-img">
+              <img src="images/spicyRoastedChickpeas.png" alt="" />
+            </div>
+            <div class="dish-card-text">
+              <h1>
+                <a href="./dishes/Snacks/spicyChickpeas.html"
+                  >Spicy Roasted Chickpeas</a
+                >
+              </h1>
+              <p>Chickpeas, Oil, Salt...</p>
+              <p class="tag pill-sm">Snacks</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h1 class="text-lg text-center heading-spacing">About Us</h1>
+        <div>
+          <div>
+            <p>
+              <strong> Welcome to CookEasy! </strong>
+              At CookEasy, we believe that cooking is more than just making
+              food—it's an experience, a passion, and a way to bring people
+              together. Whether you're a seasoned chef or a beginner in the
+              kitchen, our goal is to provide you with easy-to-follow, delicious
+              recipes that inspire creativity and joy in every meal.
+            </p>
+            <div class="flex-center">
+              <a href="./about.html" class="btn">Check Our History</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="text-center text-md heading-spacing">What We Offer</h1>
+        <div id="offers" class="flex">
+          <!-- 1 -->
+          <div class="offer flex-col">
+            <div class="flex-center">
+              <div class="offer-icon">
+                <img src="images/icons/recipe-book.png" alt="" />
+              </div>
+            </div>
+            <div id="offer-text">
+              <h3 class="text-center">Tried-and-Tested Recipes</h3>
+              <p>
+                From local family dinners to intercontinental dishes, all our
+                recipes are carefully crafted and tested to ensure amazing
+                results.
+              </p>
+            </div>
+            <div class="flex-center offer-btn">
+              <a href="./catgories.html" class="btn">View</a>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="offer flex-col">
+            <div class="flex-center">
+              <div class="offer-icon">
+                <img src="images/icons/clipboard.png" alt="" />
+              </div>
+            </div>
+            <div id="offer-text">
+              <h3 class="text-center">Step-by-Step Guides</h3>
+              <p>
+                Whether you're a beginner or an expert, our detailed
+                instructions and tips will help you cook with confidence.
+              </p>
+            </div>
+            <div class="flex-center offer-btn">
+              <a href="./catgories.html" class="btn">View</a>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="offer flex-col">
+            <div class="flex-center">
+              <div class="offer-icon">
+                <img src="images/icons/group.png" alt="" />
+              </div>
+            </div>
+            <div id="offer-text">
+              <h3 class="text-center">Community</h3>
+              <p>
+                A community forum where you can share your own recipes, ask
+                questions and connect with fellow foodies
+              </p>
+            </div>
+            <div class="flex-center offer-btn">
+              <a href="./contact.html" class="btn">View</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 class="text-lg text-center">Contact Us</h1>
+      <section class="flex" id="contact-hero">
+        <div>
+          <h1 class="text-lg">Get in touch</h1>
+          <p>
+            <strong> Fill in the form to start a conversation </strong>
+          </p>
+          <p>
+            Are you a passionate individual wanting to spread your recipes to
+            the world? Or are you a foodie who wants to share your favorite dish
+            with us? We'd love to hear from you!
+          </p>
+        </div>
+        <form id="contact-form">
+          <input
+            class="contact-input"
+            type="text"
+            id="fullNameField"
+            placeholder="Full Name"
+            required
+          />
+          <p class="error" id="fullName"></p>
+          <input
+            class="contact-input"
+            type="email"
+            id="emailField"
+            placeholder="Email"
+            required
+          />
+          <p class="error" id="email"></p>
+          <textarea class="contact-input" placeholder="Add a note"></textarea>
+          <input
+            class="contact-input submit bold"
+            type="submit"
+            value="Submit"
+            id="submitBtn"
+          />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="flex">
+          <p>CookEasy | @Copyright 2025</p>
+          <a href="#">Back to Top</a>
+        </div>
+        <div>
+          <ul class="flex">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./catgories.html">Categories</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex">
+            <li><a href="./catgories.html#breakfast">Breakfast</a></li>
+            <li>
+              <a href="./catgories.html#lunch&dinner">Lunch &amp; Dinner</a>
+            </li>
+            <li><a href="./catgories.html#desserts">Desserts</a></li>
+            <li><a href="./catgories.html#snacks">Snacks</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="js/contact.js"></script>
+    <script src="js/navToggle.js"></script>
+  </body>
+</html>
