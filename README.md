@@ -4,7 +4,7 @@ A modern, user-friendly recipe website that makes cooking simple and accessible 
 
 ## Project Overview
 
-CookEasy is a web application built for CSC 312 that showcases a collection of delicious recipes with a clean, intuitive interface. The site is designed to help users discover and explore various dishes across multiple meal categories.
+CookEasy is a web application that showcases a collection of delicious recipes with a clean, intuitive interface. The site is designed to help users discover and explore various dishes across multiple meal categories.
 
 ## Features
 
