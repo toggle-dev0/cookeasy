@@ -160,15 +160,5 @@ This website works best on:
 - Recipe images referenced in the HTML files
 - CSS file maintains all styling and responsive breakpoints
 
-## Author
-
-Created for CSC 312 Project
-
-## License
-
-This project is part of a school assignment.
-
----
-
 **Enjoy cooking with CookEasy!** 🍽️
 
